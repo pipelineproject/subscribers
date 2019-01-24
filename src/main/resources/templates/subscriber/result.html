@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html xmlns:t"http://www.thymeleaf.org">
+<head>
+	<title>Subscriber List</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="header top-padding">
+		<h1>Welcome Subscriber!</h1>
+		<h3>Thank you for signing up! Here is the information I know about you:</h3>
+	</div>
+	
+	<div class="result-content content top-padding top-padding">
+		<div class="items">
+			<div class="item1">
+				<a href="#item1" class="left-arrow">&larr;</a>
+				<h2>First Name: <span th:text="${firstName}"></span></h2>
+				<a href="#item2" class="right-arrow">&rarr;</a>
+			</div>
+			<div class="item2">
+				<a href="#item1" class="left-arrow">&larr;</a>
+				<h2>Last Name: <span th:text="${lastName}"></span></h2>
+				<a href="#item2" class="right-arrow">&rarr;</a>
+			</div>
+			<div class="item3">
+				<a href="#item1" class="left-arrow">&larr;</a>
+				<h2>Email: <span th:text="${email}"></span></h2>
+				<a href="#item2" class="right-arrow">&rarr;</a>
+			</div>
+			<div class="item4">
+				<a href="#item1" class="left-arrow">&larr;</a>
+				<h2>Username: <span th:text="${userName}"></span></h2>
+				<a href="#item2" class="right-arrow">&rarr;</a>
+			</div>
+			<div class="item5">
+				<a href="#item1" class="left-arrow">&larr;</a>
+				<h2>Password: <span th:text="${password}"></span></h2>
+				<a href="#item2" class="right-arrow">&rarr;</a>
+			</div>
+			<div class="item6">
+				<a href="#item1" class="left-arrow">&larr;</a>
+				<h2>Date of Birth: <span th:text="${dateOfBirth}"></span></h2q>
+				<a href="#item2" class="right-arrow">&rarr;</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
